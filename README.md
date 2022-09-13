@@ -1,9 +1,9 @@
 # grpc-trials
-Colletioon of programs using gRPC
+Collection of programs using gRPC
 
 # First client/server implementation
-gRPC service routine to check if client sent equal strings to server using Maven
-##Coding Steps:
+gRPC service routine to check if client sent equal strings to server using Maven.
+## Coding Steps:
 1. Add dependencies and plugins in pom.xml (at projet root) file.
 2. Add .proto file at (grpc-trials/src/main/resources/<filename>.proto) with service and message structures.
 3. Maven [validate,install] to generate class files using the .proto file.
